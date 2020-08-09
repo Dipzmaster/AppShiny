@@ -1,0 +1,28 @@
+---
+title: "Shiny and Retro pitch"
+author: "Dipak Nandeshwar"
+date: "09/08/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+## Diamond Analysis Report
+
+Diamond Data Analysis Report enabled developing data products using shiny apps being embeded within RMarkDown.
+
+## Data Used
+The data used for this application is diamonds data set, which is part of ggplot2 package. Containing information about 53940 diamonds with 10 variables.
+
+```{r, echo=TRUE}
+library("ggplot2")
+head(diamonds)
+```
+
